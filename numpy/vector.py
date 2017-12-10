@@ -16,3 +16,11 @@ print("Vector Magnitude: " + str(vector_magnitude));
 vector_magnitude = np.linalg.norm(vector_a);
 
 print("Vector Magnitude: " + str(vector_magnitude));
+
+# Angle
+
+cos_angle = vector_a.dot(vector_b) / (np.linalg.norm(vector_a) * np.linalg.norm(vector_b))
+
+angle = np.arccos(cos_angle)
+
+print("Angle between Vectors: " + str(angle));
