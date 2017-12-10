@@ -12,5 +12,4 @@ def create_dataset(filename,entries,cols):
     file.close();
     return;
      
-create_dataset('data.csv',100,4);
-    
+create_dataset(sys.argv[1],int(sys.argv[2]),int(sys.argv[3]));
