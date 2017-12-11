@@ -41,3 +41,9 @@ solve_b = np.linalg.solve(matrix_a,matrix_b);
 
 print(solve_a);
 print(solve_b);
+
+#
+a = np.array([[1,1],[1.5,4]]);
+b = np.array([2200,5050]);
+
+print(np.linalg.solve(a,b));
