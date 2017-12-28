@@ -1,5 +1,5 @@
-Name;Currency;Amount
-John;CHF;14.23
-Mark;CHF;204.20
-Peter;PLN;36.12
-Alex;GBP;0.56
+Name;Currency;Amount;Timestamp
+John;CHF;14.23;1999-01-03
+Mark;CHF;204.20;2010-04-12
+Peter;PLN;36.12;2015-03-30
+Alex;GBP;0.56;2017-12-05
